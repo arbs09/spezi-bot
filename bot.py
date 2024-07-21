@@ -11,10 +11,6 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 spezi_bilder = [
-    "https://cdn.discordapp.com/attachments/847193443411165214/1201246964344442930/e4c81853-5c14-4e54-ab52-80f7dabe2017.png?ex=669b66aa&is=669a152a&hm=05daa06f15696828c7dfa7e2152bafd24bc11706c2e041f9a929b9206a0857c9&",
-    "https://cdn.discordapp.com/attachments/847193443411165214/1185200744916336660/IMG_3976.jpg?ex=669b0875&is=6699b6f5&hm=636bfbe4bf20cecae8912c8bed96e47bada8790b488733d1aa18e1c6087345ff&",
-    "https://cdn.discordapp.com/attachments/847193443411165214/1096143281567576164/IMG_20230413_204051.jpg?ex=669b5c3b&is=669a0abb&hm=20d2d387d8d8bf6d49427b6d8e94f6342b4d308324056683cf177a29142a4fad&",
-    "https://cdn.discordapp.com/attachments/847193443411165214/1092516239374569522/20230403_202606.jpg?ex=669b5949&is=669a07c9&hm=f120d2abd3873879afdd3d56fd2f17d2c4a5987d9d911209aa170d61233a7905&",
     "https://www.laweekly.com/wp-content/uploads/2024/07/howies1-759x500.jpg",
     "https://www.laweekly.com/wp-content/uploads/2024/07/L1054819-360x240.jpg",
     "https://i.ibb.co/vH8GbsJ/IMG-20240719-123618422.jpg",
