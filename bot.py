@@ -61,15 +61,14 @@ async def on_message(message):
         return
     
     message_content = message.content.lower()
-    random_spezi_image = random.choice(spezi_bilder)
 
     if "prost" in message_content:
         await message.channel.send("Prost")
-        await message.channel.send(random_spezi_image)
+        await message.channel.send(random.choice(spezi_bilder))
 
     if ("ich habe bock auf spezi" in message_content or "ich mag spezi" in message_content or "ich liebe spezi" in message_content):
         await message.channel.send("Ich auch")
-        await message.channel.send(random_spezi_image)
+        await message.channel.send(random.choice(spezi_bilder))
 
     await bot.process_commands(message)
 
