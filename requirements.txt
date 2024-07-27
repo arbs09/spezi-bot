@@ -3,3 +3,5 @@ py-cord
 requests
 aiohttp>=3.9.4
 zipp>=3.19.1
+urllib3>=2.2.2
+requests>=2.32.2
