@@ -2,3 +2,4 @@ python-dotenv
 py-cord
 requests
 aiohttp>=3.9.4
+zipp>=3.19.1
