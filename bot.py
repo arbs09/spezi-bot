@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 import random
 import requests
 import sys
+from datetime import datetime, timedelta
+
+start_time = datetime.now()
 
 load_dotenv()
 
@@ -66,6 +69,24 @@ async def on_message(message):
         await message.channel.send(random.choice(spezi_bilder))
 
     await bot.process_commands(message)
+
+
+@bot.slash_command(name="uptime", description="Check the bot's uptime")
+async def uptime(ctx: discord.ApplicationContext):
+    current_time = datetime.now()
+    uptime = current_time - start_time
+
+    weeks, remainder = divmod(int(uptime.total_seconds()), 604800) 
+    days, remainder = divmod(remainder, 86400)
+    hours, remainder = divmod(remainder, 3600)
+    minutes, seconds = divmod(remainder, 60)
+
+    embed = discord.Embed(
+        title="PyGuard Uptime",
+        description=f"{weeks} weeks, {days} days, {hours} hours, {minutes} minutes, {seconds} seconds",
+        color=0x00b0f4
+    )
+    await ctx.respond(embed=embed, ephemeral=True)
 
 
 bot.run(TOKEN)
