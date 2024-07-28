@@ -84,7 +84,7 @@ async def uptime(ctx: discord.ApplicationContext):
     embed = discord.Embed(
         title="PyGuard Uptime",
         description=f"{weeks} weeks, {days} days, {hours} hours, {minutes} minutes, {seconds} seconds",
-        color=0xea6d3d
+        color=15363389
     )
     await ctx.respond(embed=embed, ephemeral=True)
 
