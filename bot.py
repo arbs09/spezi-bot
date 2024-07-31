@@ -68,6 +68,10 @@ async def on_message(message):
         await message.channel.send("Ich auch")
         await message.channel.send(random.choice(spezi_bilder))
 
+    if ("kann ich eine spezi" in message_content or "gibst du mir eine spezi" in message_content or "Ich will ne spezi" in message_content):
+        await message.channel.send("Gerne")
+        await message.channel.send(random.choice(spezi_bilder))
+
     await bot.process_commands(message)
 
 
