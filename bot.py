@@ -72,7 +72,7 @@ async def on_message(message):
     if "krombacher spezi" in message_content:
         await message.channel.send("ekelhaft")
 
-    if "hallo" in message_content
+    if "hallo" in message_content:
         await message.channel.send("Hallo!")
 
     await bot.process_commands(message)
