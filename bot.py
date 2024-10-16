@@ -16,7 +16,6 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 spezi_bilder = [
     "https://www.laweekly.com/wp-content/uploads/2024/07/howies1-759x500.jpg",
     "https://www.laweekly.com/wp-content/uploads/2024/07/L1054819-360x240.jpg",
-    "https://i.postimg.cc/RZ6HRct4/IMG-20240719-123618422.jpg",
     "https://i.postimg.cc/52Bxbyd8/IMG-20240726-092343202.jpg",
 ]
 
