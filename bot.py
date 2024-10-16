@@ -69,7 +69,7 @@ async def on_message(message):
         await message.channel.send("Ich auch")
         await message.channel.send(random.choice(spezi_bilder))
 
-    if "krombacher  Spezi" in message_content:
+    if "krombacher spezi" in message_content:
         await message.channel.send("ekelhaft")
 
     if "hallo" in message_content
