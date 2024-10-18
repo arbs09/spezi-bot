@@ -86,7 +86,7 @@ async def uptime(ctx: discord.ApplicationContext):
     minutes, seconds = divmod(remainder, 60)
 
     embed = discord.Embed(
-        title="PyGuard Uptime",
+        title="Spezibot Uptime",
         description=f"{weeks} weeks, {days} days, {hours} hours, {minutes} minutes, {seconds} seconds",
         color=15363389
     )
