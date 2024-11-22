@@ -16,7 +16,8 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 spezi_bilder = [
     "https://www.laweekly.com/wp-content/uploads/2024/07/howies1-759x500.jpg",
     "https://www.laweekly.com/wp-content/uploads/2024/07/L1054819-360x240.jpg",
-"https://youtu.be/laQMPh6hV9g?si=musNGU8BtNxXL72n", 
+    "https://pyguard.arbs09.dev/spezi-bot/img/001.jpg",
+    "https://youtu.be/laQMPh6hV9g?si=musNGU8BtNxXL72n",
 ]
 
 def check_images(image_urls):
